@@ -4,7 +4,7 @@ package ua.edu.ucu.tempseries;
 import java.util.InputMismatchException;
 
 public class TemperatureSeriesAnalysis {
-    double ABSOLUTE_ZERO = -273.15;
+    public final static double ABSOLUTE_ZERO = -273.15;
     double[] defaultArray = {0.0};
     double[] tempSeries;
     int numberOfElements;
